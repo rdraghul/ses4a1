@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008000"
+    tools:context="com.example.raghul.myapplication.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="576dp"
+        android:layout_height="186dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/editText3"
+            style="@style/roundcorner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:background="@drawable/asd"
+            android:text="Login ID"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="143dp"
+            android:layout_marginBottom="26dp"
+            android:layout_above="@+id/editText4"
+            android:layout_alignParentStart="true"/>
+
+        <EditText
+            android:id="@+id/editText4"
+            style="@style/roundcorner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/asd"
+            android:inputType="textPassword"
+            android:text="password"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="204dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="23dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/roundcorner"
+        android:layout_width="96dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:text="Login"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="194dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="Not Registered ? | Sign up"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="254dp"/>
+</android.support.constraint.ConstraintLayout>
